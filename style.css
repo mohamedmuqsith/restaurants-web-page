@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section-one{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+.section-one__contant li{
+    display: inline-block;
+    color: gray;
+}
+.section-two-items img{
+width: 250px;
+height: 230px;
+}
+.section-two-items{
+    border: solid 2px black;
+    width: 250px;
+    margin: 5px;
+}
+.section-two__title{
+    font-weight: bold;
+    text-align: center;
+}
+.section-two__para,.section-two__p{
+    text-align: center;
+}
+.section-two__button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: black;
+    color: white;
+    display: block; 
+    margin: auto;
+    cursor: pointer; 
+    border: none;
+}
+.section-two__button:hover{
+    background-color: yellow;
+    color: black;
+}
+.section-two{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.section-three-footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    
+}
+.section-three-footer__button {
+    margin: 10px;
+    background-color: yellow;
+    padding: 5px 20px; 
+    width: 100%; 
+    max-width: 300px; 
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .section-three-footer__button {
+        max-width: 80%; 
+        padding: 10px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .section-three-footer__button {
+        max-width: 90%; 
+        font-size: 14px; 
+    }
+}
